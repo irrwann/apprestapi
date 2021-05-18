@@ -3,7 +3,7 @@ const conn = mysql.createConnection({
     host:'localhost',
     user:'root',
     password:'',
-    database:'dbrestapi'
+    database:'dbretsapi'
 });
 conn.connect((err)=>{
     if(err) throw err;
